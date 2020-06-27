@@ -23,7 +23,7 @@ while z < 4000000:
     fibNums.append(z)
     if z == 5:
       y = fibNums[2]
-  #Calculates the remaining fibboanci 
+  #Calculates the remaining fibbonaci 
   #numbers and adds the even ones together
   else:
     z = x + y 
@@ -35,5 +35,9 @@ while z < 4000000:
 
 
 #Answer
+#Prints all fibbonaci numbers
 print(fibNums)
-print("The sum of all even fibbonaci numbers are", evenTotal)
+#Prints the sum of all the fibbonaci numbers
+print("The sum of all even fibbonaci numbers is", evenTotal)
+
+#The sum of all even fibbonaci numbers is 4613732
